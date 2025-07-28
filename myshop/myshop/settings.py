@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 
     'cart.apps.CartConfig',
     'orders.apps.OrdersConfig',
+    'payment.apps.PaymentConfig',
     'shop.apps.ShopConfig',
 ]
 
@@ -140,4 +141,4 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 # Stripe settings
 STRIPE_PUBLISHABLE_KEY = config('STRIPE_PUBLISHABLE_KEY')
 STRIPE_SECRET_KEY = config('STRIPE_SECRET_KEY')
-STRIPE_API_VERSION = '2024-06-30'
+STRIPE_API_VERSION = '2025-06-30.basil'
