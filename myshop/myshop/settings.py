@@ -32,18 +32,18 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'django.contrib.admin',
-    'django.contrib.auth',
-    'django.contrib.contenttypes',
-    'django.contrib.sessions',
-    'django.contrib.messages',
-    'django.contrib.staticfiles',
+    "django.contrib.admin",
+    "django.contrib.auth",
+    "django.contrib.contenttypes",
+    "django.contrib.sessions",
+    "django.contrib.messages",
+    "django.contrib.staticfiles",
 
-    'cart.apps.CartConfig',
-    'coupons.apps.CouponsConfig',
-    'orders.apps.OrdersConfig',
-    'payment.apps.PaymentConfig',
-    'shop.apps.ShopConfig',
+    "cart.apps.CartConfig",
+    "orders.apps.OrdersConfig",
+    "payment.apps.PaymentConfig",
+    "shop.apps.ShopConfig",
+    "coupons.apps.CouponsConfig",
 ]
 
 MIDDLEWARE = [
