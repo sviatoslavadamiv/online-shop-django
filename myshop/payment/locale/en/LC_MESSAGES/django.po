@@ -1,0 +1,96 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-05 00:04+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: payment/templates/payment/canceled.html:4
+msgid "Payment canceled"
+msgstr ""
+
+#: payment/templates/payment/canceled.html:7
+msgid "Your payment has not been processed"
+msgstr ""
+
+#: payment/templates/payment/canceled.html:8
+msgid "There was a problem processing your payment."
+msgstr ""
+
+#: payment/templates/payment/completed.html:4
+msgid "Payment successful"
+msgstr ""
+
+#: payment/templates/payment/completed.html:7
+msgid "Your payment was successful"
+msgstr ""
+
+#: payment/templates/payment/completed.html:8
+msgid "Your payment has been processed successfully."
+msgstr ""
+
+#: payment/templates/payment/process.html:4
+msgid "Pay your order"
+msgstr ""
+
+#: payment/templates/payment/process.html:7
+msgid "Order summary"
+msgstr ""
+
+#: payment/templates/payment/process.html:11
+msgid "Image"
+msgstr ""
+
+#: payment/templates/payment/process.html:12
+msgid "Product"
+msgstr ""
+
+#: payment/templates/payment/process.html:13
+msgid "Price"
+msgstr ""
+
+#: payment/templates/payment/process.html:14
+msgid "Quantity"
+msgstr ""
+
+#: payment/templates/payment/process.html:15
+#: payment/templates/payment/process.html:52
+msgid "Total"
+msgstr ""
+
+#: payment/templates/payment/process.html:41
+#, python-format
+msgid ""
+"\n"
+"                        \"%(code)s\" (%(discount)s%% off)\n"
+"                    "
+msgstr ""
+
+#: payment/templates/payment/process.html:59
+msgid "Pay now"
+msgstr ""
+
+#: payment/urls.py:8
+msgid "process/"
+msgstr ""
+
+#: payment/urls.py:9
+msgid "completed/"
+msgstr ""
+
+#: payment/urls.py:10
+msgid "canceled/"
+msgstr ""
